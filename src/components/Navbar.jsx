@@ -6,7 +6,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-        <div className="max-w-[1750px] w-[100%] m-auto mt-0 flex items-center justify-between">
+        <div className="max-w-[1750px] w-[100%] m-auto mt-4 flex items-center justify-between">
             <div className="flex gap-8">
                 <Link to="/">
                     <img src={mainLogo} className="w-auto h-[40px]" alt="logo" />
